@@ -10,7 +10,6 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @Builder
 @Getter
-@Setter
 @ToString(of = {"idTypeSkills", "libelle", "description", "typeSkills"})
 public class SkillVO implements Serializable {
   @JsonIgnore Long idTypeSkills;
